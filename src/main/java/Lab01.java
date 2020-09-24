@@ -47,10 +47,12 @@ public class Lab01 {
 			System.out.printf("\n%s has fainted!\n", battle2.getMonster2Name());
 		}
 
+		
 		// part 2
 		System.out.println("\n*** Part 2 ***");
 		int numIterations = 10;
 		System.out.printf("e^1 = %.8f\n", TaylorSeries.approximateExp(1, numIterations));
 		System.out.printf("e^2 = %.8f\n", TaylorSeries.approximateExp(2, numIterations));
+	
 	}
 }
